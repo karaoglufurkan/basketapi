@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Basket.Api/Dockerfile
+      ports: 5001:5001
+
+  redis:
+    image: "redis:alpine"
