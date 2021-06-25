@@ -15,7 +15,7 @@ It is assumed that there are 5 products in stock with product ids from 1 to 5. S
 
 ## Requirements
 
-- Docker Desktop
+- Docker
 
 ## Run The Project
 
@@ -27,7 +27,7 @@ docker-compose up -d
 
 ## How to Use The API
 
-Root url: **localhost:5001**
+Root url: **localhost:5000**
 
 ### Add Product
 - HTTP Method: **POST**
