@@ -6,7 +6,7 @@ This project is a simple representation of an e-commerce basket api which uses r
 
 The api has two endpoints which are for adding product to basket and getting basket data.
 
-For simplicity, only stock validation has implemented. User and product validation has not been not added. 
+For simplicity, only stock validation has implemented. User and product validation has not been added. 
 
 Again, for simplicity, stock validation is implemented as a mock service as if it's another api endpoint.
 
